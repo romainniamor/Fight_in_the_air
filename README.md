@@ -14,7 +14,7 @@ Python, Pygame, POO...
 
 ![App Screenshot](https://raw.githubusercontent.com/romainniamor/Fight_in_the_air/master/screenshots/screen2.png)
 
-![App Screenshot](https://raw.githubusercontent.com/romainniamor/Fight_in_the_air/master/screenshots/screen3.png)
+![App Screenshot](https://raw.githubusercontent.com/romainniamor/Fight_in_the_air/master/screenshots/sreen3.png)
 
 ![App Screenshot](https://raw.githubusercontent.com/romainniamor/Fight_in_the_air/master/screenshots/screen4.png)
 
