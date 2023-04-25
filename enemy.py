@@ -11,7 +11,7 @@ class Enemy(pygame.sprite.Sprite):
 
         self.rect = self.image.get_rect()
         self.rect.x = randint(10, 900)
-        self.rect.y = - randint(0, 10)
+        self.rect.y = - randint(0, 2000)
 
         self.velocity = randint(1, 6)
 
@@ -72,11 +72,12 @@ class Enemy(pygame.sprite.Sprite):
 
     def remove(self):
         self.rect.x = randint(10, 900)
-        self.rect.y = - randint(30, 50)
+        self.rect.y = - randint(100, 5000)
         self.health = self.max_health
 
     def launch_laser(self):
-        self.all_lasers.add(Laser(self))
+        if self.rect.y > 10:
+            self.all_lasers.add(Laser(self))
 
     def update_health_bar(self, surface):
         pygame.draw.rect(surface, (165, 165, 165), [self.rect.x + 5, self.rect.y - 4, self.max_health / 2, 2])
