@@ -5,10 +5,12 @@ Mini shooter game realized with python library's 'Pygame .
 
 
 ## 🛠 Skills
+
 Python, Pygame, POO...
 
 
-## Screenshots
+## 📺 🎮 Screenshots
+
 
 ![App Screenshot](https://raw.githubusercontent.com/romainniamor/Fight_in_the_air/master/screenshots/screen1.png)
 
